@@ -35,6 +35,8 @@
 ;Filter
 @Filter.Agent.All=Всі контрагенти
 @Filter.Store.All=Всі склади
+@Filter.StoreIn.All=Всі склади
+@Filter.StoreOut.All=Всі склади
 
 ; Errors
 @Error.Required=Обов'язкове поле
