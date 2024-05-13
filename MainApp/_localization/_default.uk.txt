@@ -19,7 +19,9 @@
 @Period=Період
 @Short=Скорочення
 @BarCode=Штрихкод
+@Barcode=Штрихкод
 @SKU=Артикул
+@Code=Код
 
 ; Commands
 @Apply=Провести
@@ -31,12 +33,14 @@
 @Item.Browse=Вибір об'єкта обліку
 @Store.Browse=Вибір складу
 @Unit.Browse=Вибір одиниці виміру
+@Project.Browse=Вибір проєкта
 
 ;Filter
 @Filter.Agent.All=Всі контрагенти
 @Filter.Store.All=Всі склади
 @Filter.StoreIn.All=Всі склади
 @Filter.StoreOut.All=Всі склади
+@Filter.Project.All=Всі проєкти
 
 ; Errors
 @Error.Required=Обов'язкове поле
