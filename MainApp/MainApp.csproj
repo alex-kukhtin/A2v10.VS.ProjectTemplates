@@ -7,6 +7,7 @@
 		<LangVersion>Latest</LangVersion>
 		<OutputType>Library</OutputType>
 		<NoWarn>$(NoWarn);MSB3245</NoWarn>
+		<NoWin32Manifest>true</NoWin32Manifest>
 	</PropertyGroup>
 
 	<ItemGroup>

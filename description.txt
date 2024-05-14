@@ -1,0 +1,14 @@
+
+WebApp:
+
+    <Name>A2v10 Main Web Application (.NET Core)</Name>
+    <Description>A project template for creating an A2v10 Main Web Application</Description>
+
+
+    <Name>A2v10 Business Application Library (.NET Core)</Name>
+    <Description>A project for creating a A2v10 Business Application Library</Description>
+
+
+
+ICON
+C:\A2v10_Net48\A2v10\images\new\favicon.ico
