@@ -9,7 +9,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="A2v10.AppRuntimeBuilder" Version="10.1.8286" />
-		<PackageReference Include="A2v10.Platform" Version="10.1.8286" />
-		<PackageReference Include="A2v10.Web.Assets" Version="10.1.8284" />
+		<PackageReference Include="A2v10.Platform" Version="10.1.8288" />
+		<PackageReference Include="A2v10.Web.Assets" Version="10.1.8287" />
 	</ItemGroup>
 </Project>
