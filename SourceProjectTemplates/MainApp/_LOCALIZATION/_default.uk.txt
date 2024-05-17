@@ -22,6 +22,9 @@
 @Barcode=Штрихкод
 @SKU=Артикул
 @Code=Код
+@Start=Початок
+@Begin=Початок
+@End=Закінчення
 
 ; Commands
 @Apply=Провести
