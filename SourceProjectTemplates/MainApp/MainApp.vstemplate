@@ -1,0 +1,39 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+	<TemplateData>
+		<Name>A2v10 Business Application Library (.NET Core)</Name>
+		<Description>A project for creating a A2v10 Business Application Library</Description>
+		<ProjectType>CSharp</ProjectType>
+		<ProjectSubType>
+		</ProjectSubType>
+		<SortOrder>1000</SortOrder>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>MainApp</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<CreateInPlace>true</CreateInPlace>
+		<Icon>__TemplateIcon.ico</Icon>
+	</TemplateData>
+	<TemplateContent>
+		<Project TargetFileName="MainApp.csproj" File="MainApp.csproj" ReplaceParameters="true">
+			<Folder Name="_home" TargetFolderName="_home">
+				<ProjectItem ReplaceParameters="true" TargetFileName="home.view.xaml">home.view.xaml</ProjectItem>
+				<ProjectItem ReplaceParameters="true" TargetFileName="model.json">model.json</ProjectItem>
+			</Folder>
+			<Folder Name="_localization" TargetFolderName="_localization">
+				<ProjectItem ReplaceParameters="true" TargetFileName="_default.uk.txt">_default.uk.txt</ProjectItem>
+			</Folder>
+			<Folder Name="_sql" TargetFolderName="_sql">
+				<ProjectItem ReplaceParameters="true" TargetFileName="_schemas.sql">_schemas.sql</ProjectItem>
+				<ProjectItem ReplaceParameters="true" TargetFileName="_tables.sql">_tables.sql</ProjectItem>
+				<ProjectItem ReplaceParameters="true" TargetFileName="_tabletypes.sql">_tabletypes.sql</ProjectItem>
+				<ProjectItem ReplaceParameters="true" TargetFileName="_ui.sql">_ui.sql</ProjectItem>
+			</Folder>
+			<Folder Name="_sqlscripts" TargetFolderName="_sqlscripts" />
+			<ProjectItem ReplaceParameters="false" TargetFileName="app.metadata">app.metadata</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="module.json">module.json</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="sql.json">sql.json</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="styles.xaml">styles.xaml</ProjectItem>
+		</Project>
+	</TemplateContent>
+</VSTemplate>

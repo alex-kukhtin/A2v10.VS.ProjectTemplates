@@ -5,7 +5,7 @@ using System;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace WebApp;
+namespace $safeprojectname$;
 
 public class Program
 {

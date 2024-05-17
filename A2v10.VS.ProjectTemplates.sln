@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34728.123
+VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp\WebApp.csproj", "{6DD25485-77FC-4CF6-B3D8-8344AB09BB1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A2v10.VS.ProjectTemplates", "A2v10.VS.ProjectTemplates.csproj", "{CE91EECB-4670-405A-8695-FDBE9D42CA3F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainApp", "MainApp\MainApp.csproj", "{2519C637-D41A-41FC-B26E-4508D763B6D5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBF8D6BB-58CE-41AE-BA65-4A23DB7CC271}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{712D3B5C-628F-4C32-BBD4-335B71DF198A}"
 	ProjectSection(SolutionItems) = preProject
 		description.txt = description.txt
 	EndProjectSection
@@ -15,22 +13,30 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|arm64 = Debug|arm64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|arm64 = Release|arm64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6DD25485-77FC-4CF6-B3D8-8344AB09BB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DD25485-77FC-4CF6-B3D8-8344AB09BB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DD25485-77FC-4CF6-B3D8-8344AB09BB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DD25485-77FC-4CF6-B3D8-8344AB09BB1F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2519C637-D41A-41FC-B26E-4508D763B6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2519C637-D41A-41FC-B26E-4508D763B6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2519C637-D41A-41FC-B26E-4508D763B6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2519C637-D41A-41FC-B26E-4508D763B6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Debug|arm64.ActiveCfg = Debug|arm64
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Debug|arm64.Build.0 = Debug|arm64
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Debug|x86.ActiveCfg = Debug|x86
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Debug|x86.Build.0 = Debug|x86
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Release|arm64.ActiveCfg = Release|arm64
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Release|arm64.Build.0 = Release|arm64
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Release|x86.ActiveCfg = Release|x86
+		{CE91EECB-4670-405A-8695-FDBE9D42CA3F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AB3443D4-F946-467E-8FAE-A5AF6CC095F1}
+		SolutionGuid = {A81C3129-4342-495B-944D-BEECC25C0379}
 	EndGlobalSection
 EndGlobal

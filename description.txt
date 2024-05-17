@@ -9,6 +9,15 @@ WebApp:
     <Description>A project for creating a A2v10 Business Application Library</Description>
 
 
+Links
+=============
+https://learn.microsoft.com/en-us/visualstudio/ide/how-to-create-multi-project-templates?view=vs-2022
 
-ICON
-C:\A2v10_Net48\A2v10\images\new\favicon.ico
+https://www.vb-net.com/PublishVSIXtoMarketlace/Index.htm
+
+
+—оздание пакета
+1. ”паковываем C:\Projects\A2v10.VS.ProjectTemplates\SourceProjectTemplates
+    в C:\Projects\A2v10.VS.ProjectTemplates\ProjectTemplates\Templates.zip
+2. Ётот файл добавлен в asset в vsixmanifest
+3. 

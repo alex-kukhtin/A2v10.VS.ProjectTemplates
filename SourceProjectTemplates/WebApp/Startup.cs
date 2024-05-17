@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace WebApp;
+namespace $safeprojectname$;
 
 public class Startup(IConfiguration configuration)
 {
