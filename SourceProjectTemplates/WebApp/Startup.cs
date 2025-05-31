@@ -1,4 +1,4 @@
-﻿// Copyright © 2024 Oleksandr Kukhtin. All rights reserved.
+﻿// Copyright © 2024-2025 Oleksandr Kukhtin. All rights reserved.
 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,9 +15,8 @@ public class Startup(IConfiguration configuration)
 
 	public void ConfigureServices(IServiceCollection services)
 	{
-		services.UseAppRuntimeBuilder(); // Before platform!
-
-		services.UsePlatform(Configuration);
+        services.UseAppMetdata(); // Before platform!
+        services.UsePlatform(Configuration);
 
 		services.AddReportEngines(factory =>
 		{

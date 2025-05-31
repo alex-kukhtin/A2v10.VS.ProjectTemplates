@@ -8,9 +8,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="A2v10.AppRuntimeBuilder" Version="10.1.8289" />
-		<PackageReference Include="A2v10.Platform" Version="10.1.8288" />
-		<PackageReference Include="A2v10.Web.Assets" Version="10.1.8287" />
-		<PackageReference Include="A2v10.ReportEngine.Pdf" Version="10.1.8288" />
+		<PackageReference Include="A2v10.Platform" Version="10.1.8552" />
+		<PackageReference Include="A2v10.Web.Assets" Version="10.1.8551" />
+		<PackageReference Include="A2v10.ReportEngine.Pdf" Version="10.1.8551" />
+		<PackageReference Include="A2v10.Module.Metadata" Version="10.1.1050" />
 	</ItemGroup>
 </Project>
