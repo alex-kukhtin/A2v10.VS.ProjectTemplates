@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" ?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="A2v10.VS.ProjectTemplates.67329ca5-2c90-43cc-8bb8-180fd966d5ec" Version="10.1.8289" Language="en-US" Publisher="Oleksandr Kukhtin" />
+        <Identity Id="A2v10.VS.ProjectTemplates.67329ca5-2c90-43cc-8bb8-180fd966d5ec" Version="10.1.8551" Language="en-US" Publisher="Oleksandr Kukhtin" />
         <DisplayName>A2v10 application project templates</DisplayName>
         <Description xml:space="preserve">A set of project and solution templates for creating A2v10 business applications.</Description>
         <Icon>__TemplateIcon.ico</Icon>
